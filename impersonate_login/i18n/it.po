@@ -25,7 +25,7 @@ msgstr "Riporta a utente originale"
 #. module: impersonate_login
 #: model:ir.model,name:impersonate_login.model_base
 msgid "Base"
-msgstr "Base"
+msgstr ""
 
 #. module: impersonate_login
 #: model:ir.model,name:impersonate_login.model_res_config_settings
@@ -49,8 +49,8 @@ msgid ""
 msgstr ""
 "Crea e gestisci gli utenti che si connetteranno al sistema. Gli utenti "
 "possono essere disattivati qualora si verifichi un periodo di tempo durante "
-"il quale non si connetteranno al sistema. Puoi assegnare loro dei gruppi per "
-"concedere un accesso specifico alle applicazioni di cui hanno bisogno "
+"il quale non si connetteranno al sistema. Puoi assegnare loro dei gruppi per"
+" concedere un accesso specifico alle applicazioni di cui hanno bisogno "
 "all'interno del sistema."
 
 #. module: impersonate_login
@@ -96,13 +96,13 @@ msgstr "Instradamento HTTP"
 #: model:ir.model.fields,field_description:impersonate_login.field_res_config_settings__id
 #: model:ir.model.fields,field_description:impersonate_login.field_res_users__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: impersonate_login
 #: model:ir.model.fields,help:impersonate_login.field_res_config_settings__restrict_impersonate_admin_settings
 msgid ""
-"If enabled, users with the 'Administration: Settings' access right cannot be "
-"impersonated."
+"If enabled, users with the 'Administration: Settings' access right cannot be"
+" impersonated."
 msgstr ""
 "Se abilitato, gli utenti con diritto di accesso \"Amministrazione: "
 "impostazioni\" non possono essere impersonati."
@@ -179,8 +179,8 @@ msgstr "Nessun utente trovato. Creiamone uno!"
 #. module: impersonate_login
 #: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
 msgid ""
-"Prevents impersonating users that have the 'Administration: Settings' access "
-"rights."
+"Prevents impersonating users that have the 'Administration: Settings' access"
+" rights."
 msgstr ""
 "Impedisce l'impersonificazione di utenti che dispongono dei diritti di "
 "accesso 'Amministrazione: Impostazioni'."

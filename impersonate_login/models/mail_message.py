@@ -52,7 +52,9 @@ class Message(models.Model):
                     name=html_escape(current_partner.name),
                 )
             if rec.body and additional_info:
-                rec.body = f"<b>{additional_info}</b><br/>{rec.body}"
+                # <strong>, not <b>: the chatter styles every <b> of a tracking
+                # message body as a tracked new value (.o_track b)
+                rec.body = f"<strong>{additional_info}</strong><br/>{rec.body}"
             else:
                 rec.body = rec.body
 
@@ -72,7 +74,7 @@ class Message(models.Model):
                     name=html_escape(current_partner.name),
                 )
             if additional_info:
-                start_with = f"<b>{additional_info}</b><br/>"
+                start_with = f"<strong>{additional_info}</strong><br/>"
                 if rec.body and rec.body.startswith(start_with):
                     rec.body = rec.body
                 else:

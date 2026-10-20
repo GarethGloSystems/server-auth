@@ -94,8 +94,8 @@ msgstr ""
 #. module: impersonate_login
 #: model:ir.model.fields,help:impersonate_login.field_res_config_settings__restrict_impersonate_admin_settings
 msgid ""
-"If enabled, users with the 'Administration: Settings' access right cannot be "
-"impersonated."
+"If enabled, users with the 'Administration: Settings' access right cannot be"
+" impersonated."
 msgstr ""
 
 #. module: impersonate_login
@@ -170,8 +170,8 @@ msgstr ""
 #. module: impersonate_login
 #: model_terms:ir.ui.view,arch_db:impersonate_login.view_res_config_settings_impersonate
 msgid ""
-"Prevents impersonating users that have the 'Administration: Settings' access "
-"rights."
+"Prevents impersonating users that have the 'Administration: Settings' access"
+" rights."
 msgstr ""
 
 #. module: impersonate_login
